@@ -1,0 +1,17 @@
+
+{
+  "name": "campuswifi-cli",
+  "version": "1.0.0",
+  "description": "Campus Wi-Fi authentication CLI for Windows",
+  "main": "campuswifi.js",
+  "bin": {
+    "ccp": "./campuswifi.js"
+  },
+  "scripts": {
+    "start": "node campuswifi.js"
+  },
+  "dependencies": {
+    "keytar": "^7.9.0",
+    "prompts": "^2.4.2"
+  }
+}
